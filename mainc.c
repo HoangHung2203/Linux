@@ -8,6 +8,7 @@ int main(int argc, char *argv[])
     sleep(2);
     execl("/bin/ls", "ls", "-l", "-a", "-h", NULL);
     printf("hung");
+    printf("hahahaha");
     return 0;   
 
 
